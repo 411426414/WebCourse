@@ -1,0 +1,27 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif!important;
+}
+
+
+/*2000+全球师资 100%欧美外教 */
+#home_teacher {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+h4.subtitle {
+    position: relative;
+    margin-bottom: 20px;
+    color: #666;
+    text-align: center;
+    line-height: 30px;
+}
+
+h2.btitle {
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 38px;
+    color: #00a080;
+    font-weight: 100;
+}
