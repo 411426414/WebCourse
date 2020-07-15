@@ -1,8 +1,6 @@
 body {
     font-family: "Helvetica Neue",Helvetica,Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif!important;
 }
-
-
 /*2000+全球师资 100%欧美外教 */
 #home_teacher {
     padding-top: 75px;
@@ -24,4 +22,25 @@ h2.btitle {
     font-size: 38px;
     color: #00a080;
     font-weight: 100;
+}
+#home_teacher .titem, #home_teacher .tmore {
+    position: relative;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px gray;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid 5px #f6f792;
+}
+
+#home_teacher .titem div.tname.right {
+    right: 25px;
+    text-align: right;
+}
+#home_teacher .titem div.tname {
+    position: absolute;
+}
+#home_teacher .titem div.tname.left {
+    left: 25px;
+    text-align: left;
 }
