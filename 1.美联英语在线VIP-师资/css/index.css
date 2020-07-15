@@ -44,3 +44,20 @@ h2.btitle {
     left: 25px;
     text-align: left;
 }
+
+
+#home_teacher .titem div.tname.left {
+    left: 25px;
+    text-align: left;
+}
+#home_teacher .tmore {
+    display: block;
+    min-height: 200px;
+    line-height: 30px;
+    padding-top: 45px;
+    color: #fff;
+    background-color: #eb7085;
+    filter: alpha(opacity=75);
+    -moz-opacity: .75;
+    opacity: .75;
+}
