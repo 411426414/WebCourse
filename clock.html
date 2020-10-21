@@ -31,6 +31,17 @@
 				/*设置当前的线条宽度*/
 				ctx.lineWidth = 10;
 				ctx.stroke();
+
+        var hoursnum = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1, 2];
+				for(var i = 0; i < 12; i++) {
+					var rad = Math.PI * 2 / 12 * i;
+					var x = (r - 30) * Math.cos(rad);
+					var y = (r - 30) * Math.sin(rad);
+					ctx.font = "20px Arial";
+					ctx.textAlign = "center";
+					ctx.textBaseline = "middle";
+					ctx.fillText(hoursnum[i], x, y);
+				}
     })();
   </script>
 </body>
