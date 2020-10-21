@@ -24,13 +24,13 @@
     var r = width / 2;
 
     (function() {
-				ctx.translate(r, r);
-				ctx.beginPath();
-				ctx.arc(0, 0, r - 5, 0, Math.PI * 2, true);
-				ctx.closePath();
-				/*设置当前的线条宽度*/
-				ctx.lineWidth = 10;
-				ctx.stroke();
+      ctx.translate(r, r);
+			ctx.beginPath();
+			ctx.arc(0, 0, r - 5, 0, Math.PI * 2, true);
+			ctx.closePath();
+			/*设置当前的线条宽度*/
+			ctx.lineWidth = 10;
+			ctx.stroke();
 
         var hoursnum = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1, 2];
 				for(var i = 0; i < 12; i++) {
