@@ -43,20 +43,20 @@
 				ctx.fillText(hoursnum[i], x, y);
 			}
 
-				for(var i = 0; i < 60;i++){
-          var rad = Math.PI * 2 / 60 * i;
-          var x = (r-15) * Math.cos(rad);
-          var y = (r-15) * Math.sin(rad);
-          ctx.beginPath();
-          ctx.arc(x,y,2,0,Math.PI * 2,false);
-          ctx.closePath();
-          if(i % 5 == 0){
-            ctx.fillStyle = "black";
-          }else{
-            ctx.fillStyle = "cyan";
-          }
-          ctx.fill()
+			for(var i = 0; i < 60;i++){
+        var rad = Math.PI * 2 / 60 * i;
+        var x = (r-15) * Math.cos(rad);
+        var y = (r-15) * Math.sin(rad);
+        ctx.beginPath();
+        ctx.arc(x,y,2,0,Math.PI * 2,false);
+        ctx.closePath();
+        if(i % 5 == 0){
+          ctx.fillStyle = "black";
+        }else{
+          ctx.fillStyle = "cyan";
         }
+        ctx.fill()
+      }
     })();
   </script>
 </body>
