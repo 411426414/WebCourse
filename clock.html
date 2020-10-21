@@ -27,7 +27,10 @@
 				ctx.translate(r, r);
 				ctx.beginPath();
 				ctx.arc(0, 0, r - 5, 0, Math.PI * 2, true);
-				}
+				ctx.closePath();
+				/*设置当前的线条宽度*/
+				ctx.lineWidth = 10;
+				ctx.stroke();
     })();
   </script>
 </body>
