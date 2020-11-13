@@ -30,6 +30,13 @@ window.onload = function () {
           // return item.name.indexOf(this.input) != 1
           return item.name.includes(this.input)
         })
+      },
+      // 总的数量
+      totalCount: function () {
+          // 累加器 reduce()
+          return this.seachData.reduce(function (total, cur) {
+              return total + cur.count
+          }, 0)
       }
     }
   })
