@@ -13,6 +13,14 @@ window.onload = function () {
           {name:'桃子', price:34, count:1, url:'./images/桃子.jpg'},
           {name:'西瓜', price:34, count:1, url:'./images/西瓜.jpg'}
       ]
+    },
+    // 过滤器
+    filters: {
+      // data: 过滤器作用的值
+      // toFixed(): 方法可把 Number 四舍五入为指定小数位数的数字。
+      priceFilter: function (data, i) {
+        return '￥' + data.toFixed(i)
+      }
     }
   })
 }
