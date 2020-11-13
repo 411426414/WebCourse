@@ -33,10 +33,10 @@ window.onload = function () {
       },
       // 总的数量
       totalCount: function () {
-          // 累加器 reduce()
-          return this.seachData.reduce(function (total, cur) {
-              return total + cur.count
-          }, 0)
+        // 累加器 reduce()
+        return this.seachData.reduce(function (total, cur) {
+          return total + cur.count
+        }, 0)
       },
       // 总的金额
       totalPrice: function () {
