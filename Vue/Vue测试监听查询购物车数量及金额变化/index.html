@@ -43,7 +43,7 @@
                             <td></td>
                             <td>{{v.name}}</td>
                             <td>
-                                <button class="btn" @click='v.count--'>-</button>
+                                <button class="btn" @click='v.count--' :disabled='v.count==0'>-</button>
                                 {{v.count}}
                                 <button class="btn" @click='v.count++'>+</button>
                             </td>
