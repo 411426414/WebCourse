@@ -37,6 +37,12 @@ window.onload = function () {
           return this.seachData.reduce(function (total, cur) {
               return total + cur.count
           }, 0)
+      },
+      // 总的金额
+      totalPrice: function () {
+        return this.seachData.reduce(function (total, cur) {
+          return total + cur.count * cur.price
+        }, 0)
       }
     }
   })
