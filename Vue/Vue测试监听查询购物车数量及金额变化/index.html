@@ -43,9 +43,9 @@
                             <td></td>
                             <td>{{v.name}}</td>
                             <td>
-                                <button class="btn">-</button>
+                                <button class="btn" @click='v.count--'>-</button>
                                 {{v.count}}
-                                <button class="btn">+</button>
+                                <button class="btn" @click='v.count++'>+</button>
                             </td>
                             <td>{{v.price|priceFilter(2) }}</td>
                             <td>{{v.count*v.price|priceFilter(1) }}</td>
