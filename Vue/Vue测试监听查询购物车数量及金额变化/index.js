@@ -21,6 +21,16 @@ window.onload = function () {
       priceFilter: function (data, i) {
         return '￥' + data.toFixed(i)
       }
+    },
+    // 计算属性
+    computed: {
+      seachData: function () {
+        if (!this.input) return this.items
+        return this.items.filter(item => {
+          // return item.name.indexOf(this.input) != 1
+          return item.name.includes(this.input)
+        })
+      }
     }
   })
 }
