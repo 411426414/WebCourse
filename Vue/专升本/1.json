@@ -2,8 +2,7 @@
   "code": 0,
   "msg": "",
   "count": 657,
-  "data": [
-    {
+  "data": [{
     "bms": "256",
     "deptName": "长江大学",
     "id": "5",
