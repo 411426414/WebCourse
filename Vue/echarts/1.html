@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="../vue.js/echarts.js"></script>
+</head>
+<body>
+  <div id="echarts3"></div>
+  <script>
+    // 动态获取数据
+  function getData(){
+    var request = new XMLHttpRequest();
+    request.open('get', 'http://127.0.0.1:5000/get_center2')
+    request.send()
+  }
+  getData()
+  </script>
+  <script src="./center2.js"></script>
+  
+</body>
+</html>
